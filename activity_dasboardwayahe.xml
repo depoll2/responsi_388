@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".formbiodata"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Hobi1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_toRightOf="@+id/tampilhobi"
+        tools:ignore="ObsoleteLayoutParam,UnknownId" />
+
+    <TextView
+        android:id="@+id/tampilhobi"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:text="Hobi = "
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/Nama1"
+        android:layout_width="259dp"
+        android:layout_height="46dp"
+        android:layout_below="@+id/Hobi1"
+        android:layout_toRightOf="@+id/tampilnama"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="150dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/Hobi1"
+        android:id="@+id/tampilnama"
+        android:layout_height="48dp"
+        android:text="Nama = " />
+
+    <TextView
+        android:id="@+id/Umur1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/Nama1"
+        android:layout_toRightOf="@+id/tampilnama"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="150dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/Nama1"
+        android:id="@+id/tampilumur"
+        android:layout_height="48dp"
+        android:text="Umur =" />
+
+    <TextView
+        android:id="@+id/Email1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/Umur1"
+        android:layout_toRightOf="@+id/tampilemail"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tampilemail"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/Umur1"
+        android:layout_marginTop="0dp"
+        android:text="Email ="
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/Username1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/Email1"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="4dp"
+        android:layout_toRightOf="@+id/tampilusername"
+        android:textSize="20dp" />
+
+        <TextView
+        android:layout_width="150dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/Email1"
+        android:id="@+id/tampilusername"
+        android:layout_height="48dp"
+        android:text="Username=" />
+
+
+    <TextView
+        android:id="@+id/Password1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/Username1"
+        android:layout_toRightOf="@+id/tampilpas"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tampilpas"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_above="@+id/tampiljk"
+        android:layout_below="@+id/tampilusername"
+        android:text="Password = "
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/Jk1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/Password1"
+        android:layout_toRightOf="@+id/tampiljk"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tampiljk"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/Password1"
+        android:text="Jenis kelamin ="
+        android:textSize="20dp" />
+</RelativeLayout>
